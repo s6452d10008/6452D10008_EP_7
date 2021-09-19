@@ -1,0 +1,29 @@
+h1{
+    color: rgb(252, 0, 126);
+}
+
+h2{
+    color: orangered;
+}
+
+    /* Pseudo Element selector */
+    h2::first-letter {
+        color: red;
+    }
+    h4::after{
+        content: url(/images/images1.webp);
+    }
+
+    /* pseudo Class selector*/
+    a:link{
+        color: mediumblue;
+    }
+    a:hover{
+        color: red;
+    }
+    a:visited{
+        color: yellow;
+    }
+   a{
+       text-decoration: none;
+   }
